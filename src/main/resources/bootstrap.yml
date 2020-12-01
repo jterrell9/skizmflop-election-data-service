@@ -1,0 +1,3 @@
+spring:
+    application:
+        name: election-data-service

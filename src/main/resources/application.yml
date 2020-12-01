@@ -1,0 +1,20 @@
+server:
+  port: 3300
+spring:
+  datasource:
+    url: #
+    username: #
+    password: #
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+      instance:
+        preferIpAddress: true
